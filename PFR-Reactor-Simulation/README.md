@@ -19,15 +19,20 @@ Cis-2-butene → Trans-2-butene
 - Reaction phase: Liquid
 - Kinetic model: Arrhenius
 - Reaction order: First order
+## 4. PFR Flowsheet
+![PFR Flowsheet](PFR_Flowsheet.png)
 
-## 4. Reaction Kinetics
+## 5. Simulation Results
+![PFR Results](PFR_Reactor_Results.png)
+
+## 6. Reaction Kinetics
 
 - Reaction basis: Molar Concentration
 - Forward reaction order: 1
 - Reverse reaction order: 0
 - Target conversion: 90%
 
-## 5. Reactor Design Results
+## 7. Reactor Design Results
 
 | Parameter | Value |
 |---|---:|
@@ -38,13 +43,13 @@ Cis-2-butene → Trans-2-butene
 | Reaction Rate | 58.4304 kmol/(m³·h) |
 | Reaction Heat | -90 kW |
 
-## 6. Controller Implementation
+## 8. Controller Implementation
 
 A controller block was implemented to manipulate the PFR volume while controlling the conversion of Cis-2-butene.
 
 The target conversion was specified as 0.90 (90%).
 
-## 7. Learning Outcomes
+## 9. Learning Outcomes
 
 - Understanding reaction kinetics and stoichiometry.
 - Implementing Arrhenius kinetic models.
@@ -52,7 +57,7 @@ The target conversion was specified as 0.90 (90%).
 - Understanding conversion and reaction rate.
 - Using controller blocks for reactor design calculations.
 
-## 8. Project Files
+## 10. Project Files
 
 - DWSIM simulation file
 - PFR flowsheet
